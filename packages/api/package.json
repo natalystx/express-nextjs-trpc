@@ -1,0 +1,45 @@
+{
+  "name": "@repo/api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "tsx watch ./src/index.ts",
+    "build": "tsx build ./src/index.ts",
+    "lint": "eslint --ignore-path .eslintignore --ext .js,.ts",
+    "generate": "drizzle-kit generate --config ./drizzle.config.ts",
+    "migrate": "drizzle-kit migrate --config ./drizzle.config.ts",
+    "studio": "drizzle-kit studio --config ./drizzle.config.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^8.56.0",
+    "@types/bcrypt": "^5.0.2",
+    "@types/body-parser": "^1.19.5",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/node": "^20.12.13",
+    "@typescript-eslint/eslint-plugin": "^7.11.0",
+    "@typescript-eslint/parser": "^7.11.0",
+    "dotenv": "^16.4.5",
+    "drizzle-kit": "^0.21.4",
+    "eslint": "^8.57.0",
+    "globals": "^15.3.0",
+    "tsx": "^4.11.0",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.11.0"
+  },
+  "dependencies": {
+    "@paralleldrive/cuid2": "^2.2.2",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "drizzle-orm": "^0.30.10",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.10.0"
+  }
+}

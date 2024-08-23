@@ -1,0 +1,27 @@
+{
+  "version": "6",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1717143909776,
+      "tag": "0000_noisy_clea",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1717144033166,
+      "tag": "0001_third_logan",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1717146613981,
+      "tag": "0002_typical_epoch",
+      "breakpoints": true
+    }
+  ]
+}

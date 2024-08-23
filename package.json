@@ -1,0 +1,28 @@
+{
+  "name": "trpc-poc",
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "turbo": "^2.0.14",
+    "typescript": "^5.4.5"
+  },
+  "packageManager": "pnpm@8.15.6",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@emotion/css": "^11.13.0",
+    "@trpc/client": "11.0.0-rc.482",
+    "@trpc/server": "11.0.0-rc.482",
+    "clsx": "^2.1.1",
+    "react-cookie": "^7.2.0",
+    "tailwind-merge": "^2.5.2",
+    "zod": "^3.23.8"
+  }
+}
